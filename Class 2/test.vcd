@@ -1,0 +1,53 @@
+$date
+	Thu Oct 13 17:08:55 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module sign_mag_add_tb $end
+$var wire 5 ! O [4:0] $end
+$var reg 5 " A [4:0] $end
+$var reg 5 # B [4:0] $end
+$scope module uut $end
+$var wire 5 $ A [4:0] $end
+$var wire 5 % B [4:0] $end
+$var reg 5 & Sum [4:0] $end
+$var reg 4 ' mag_A [3:0] $end
+$var reg 4 ( mag_B [3:0] $end
+$var reg 4 ) mag_Sum [3:0] $end
+$var reg 4 * mag_max [3:0] $end
+$var reg 4 + mag_min [3:0] $end
+$var reg 1 , sign_A $end
+$var reg 1 - sign_B $end
+$var reg 1 . sign_Sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1.
+1-
+1,
+b1 +
+b1 *
+b10 )
+b1 (
+b1 '
+b10010 &
+b10001 %
+b10001 $
+b10001 #
+b10001 "
+b10010 !
+$end
+#10000
+b11 *
+b11 '
+0-
+b1 #
+b1 %
+b10011 "
+b10011 $
